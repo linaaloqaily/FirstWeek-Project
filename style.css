@@ -1,0 +1,26 @@
+/* (*) Applies to all pages */
+*{
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to left, rgba(53, 29, 65, 0), rgb(152, 113, 140));
+    font-family: 'Noto Serif', serif;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+table, tr, td{
+    border:  2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+.contactMe{
+    height: 200px;
+  position: absolute;
+  align-items: center;
+}
+.table{
+    text-align: left;
+   
+}
